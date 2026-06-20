@@ -1,0 +1,65 @@
+Project Overview
+
+A full-stack task management application allowing users to manage projects and tasks securely.
+
+Architecture
+Frontend
+
+React + TypeScript + Tailwind
+
+↓
+
+Axios
+
+↓
+
+FastAPI
+
+↓
+
+MongoDB
+
+Database Design
+Users
+id
+username
+email
+hashed_password
+Projects
+id
+name
+description
+created_at
+user_id
+Tasks
+id
+title
+description
+status
+priority
+due_date
+created_at
+updated_at
+project_id
+Authentication Flow
+Register
+↓
+Login
+↓
+JWT Token Generated
+↓
+Stored in localStorage
+↓
+Protected Routes
+Challenges Faced
+Resolving virtual environment issues
+Fixing Tailwind configuration
+Handling TypeScript import errors
+Integrating JWT authentication
+Connecting frontend and backend
+Key Learnings
+FastAPI development
+MongoDB integration
+React with TypeScript
+JWT authentication
+Full-stack API integration
